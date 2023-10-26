@@ -1,0 +1,23 @@
+A = 10;
+B = 20;
+C = 30;
+si ( A >= C ) {
+  print (A + C);
+} 
+sinaum {
+  print (A);
+}
+si ( A != 0){
+	repete (A < 2) {
+  		A = A + 1;
+	};
+}
+sinaum{
+print (B);
+}
+
+si ( B <= 5){
+	repete (B > 2) {
+  		B = B - 1;
+	};
+}

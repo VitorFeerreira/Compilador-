@@ -1,0 +1,35 @@
+A = 10;
+B = A * 50.6;
+print (A);
+print (A); 
+
+repete ((B != 5) | (B>=0)) {
+	B = B+1;
+		
+};
+
+si ((A > B) & (A == B)) {
+A = A - 1;
+   
+} sinaum {
+  print (B);
+}
+
+si (A < B) {
+A = A + 1;
+   
+} sinaum {
+  print (B);
+}  
+
+si (A == 0){
+ repete (A <= 2) {
+  		A = A + 1;
+	};
+}
+
+si (A < 0){
+ repete (A >= 2) {
+  		A = A - 1;
+	};
+}
